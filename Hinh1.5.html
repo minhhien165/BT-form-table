@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h3>Thêm mới nhân viên</h3>
+        <div >
+            <label for="userName">Họ và tên</label>
+            <input required name="userName" id="userName" type="text">            
+        </div>
+        <br>
+        <div>
+            <label for="dateOfBirth">Ngày sinh đầy đủ</label>
+            <input required name="dateOfBirth" id="dateOfBirth" type="date">
+        </div>
+        <br>
+        <div>
+            <label for="monthAndYear">Tháng và năm</label>
+            <input name="monthAndYear" id="monthAndYear" type="month">
+        </div>
+        <br>
+        <div>
+            <label for="appt">Thời gian</label>
+            <input name="appt" id="appt" type="time">
+        </div>
+        <br>
+        <div>
+            <label for="">Giới tính</label>
+            <input checked name="gender" type="radio"> Nam
+            <input name="gender" type="radio"> Nữ
+            <input name="gender" type="radio"> Khác
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input required name="email" id="email" type="email">
+        </div>
+        <br>
+        <div>
+            <label for="pwd">Mật khẩu</label>
+            <input required name="pwd" id="pwd" type="password">
+        </div>
+        <br>
+        <div>
+            <label for="">Giới thiệu bản thân</label>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="">Thành phố</label>
+            <select name="" id="">
+                <option hidden value="--Vui lòng chọn thành phố--" selected>--Vui lòng chọn thành phố--</option>
+                <option value="Hà Nội">Hà Nội</option>
+                <option value="Hà Nam">Hà Nam</option>
+                <option value="Ninh Bình">Ninh Bình</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">Hình ảnh</label>
+            <input type="button" value="Chọn tệp"> Không có tệp nào được chọn
+        </div>
+        <br>
+        <div>
+            <label for="">Sở thích</label>
+            <input checked name="gender" type="checkbox"> code
+            <input checked name="gender" type="checkbox"> Chơi game
+            <input name="gender" type="checkbox"> Bơi lội
+            <input name="gender" type="checkbox"> Đá bóng
+        </div>
+    </form>
+</body>
+</html>
